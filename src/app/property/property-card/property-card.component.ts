@@ -1,4 +1,5 @@
-import { Component } from "@angular/core";
+import { Component, Input } from "@angular/core";
+import { IProperty } from "../IProperty.interface";
 
 // decorator in form of object {};
 @Component(
@@ -16,12 +17,16 @@ import { Component } from "@angular/core";
 // class Name must be in pascal case
 export class PropertyCardComponent{
 
-    Property : any ={
+   @Input() property:IProperty;
+   constructor() {
+    this.property = {
+        Id: 0,
+        Price: 0,
+        Name: '',
+        Type: '',
+        SellRent:0,
+        
+    };
 
-        "Id":1,
-        "Type":"House",
-        "Price":12000,
-        "Name":"Birla House"
-    }
-
+}
 }

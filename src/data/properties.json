@@ -1,0 +1,55 @@
+[
+
+    {
+      "Id":1,
+      "SellRent":1,
+      "Name":"Birla House",
+      "Type":"House",
+      "Price":13400,
+      "Image":"prop_1"
+    },
+    {
+      "Id":2,
+      "SellRent":1,
+      "Name":"White Parle ",
+      "Type":"House",
+      "Price":56000,
+      "Image":"prop_2"
+    }
+    ,
+    {
+      "Id":3,
+      "SellRent":2,
+      "Name":"BridgeStone ",
+      "Type":"House",
+      "Price":12000,
+      "Image":"prop_3"
+    }
+    ,
+    {
+      "Id":4,
+      "SellRent":1,
+      "Name":"Ambani ",
+      "Type":"House",
+      "Price":12000,
+      "Image":"prop_4"
+    }
+    ,
+    {
+      "Id":5,
+      "SellRent":2,
+      "Name":"Shwanok ",
+      "Type":"House",
+      "Price":12000,
+      "Image":"prop_5"
+    }
+    ,
+    {
+      "Id":6,
+      "SellRent":1,
+      "Name":"Royal ",
+      "Type":"House",
+      "Price":12000
+     
+    }
+  ]
